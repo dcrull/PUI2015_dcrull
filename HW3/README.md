@@ -26,6 +26,9 @@ This supports the Central Limit Theorem (CLT), which states generally that given
 
 The histogram of all the means (across all distributions) further supports this, demonstrating a normal distribution centered around the population mean.
 
+Shout outs:
+Consulted with....Google. Stackoverflow. And classmates Nate Weber, Michelle Ho, Maria Ortiz.
+
 
 ASSIGNMENT 2: HYPOTHESIS TESTING
 
