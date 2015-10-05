@@ -32,6 +32,7 @@ FURTHER RESEARCH:
 The scope of the analysis was limited by time. Further research might look into:
 - A more analytical way to decide what a "key" street is, perhaps based on other data sets like MTA or traffic.
 - A more precise way to identify stations along a street, perhaps based on long/lat
+- A look at an entire year of data
 - A look into different subsets of the data: subscribers vs one-time users; weekday (specifically during rush hour) vs weekend
 - One could even measure the trip length compared to an estimate time for a path between two stations and eliminate trips that are significantly longer than expected (i.e. not commuters, but tourists "looping" around)
 - Look not only at start and end stations, but consider direction (east-to-west/west-to-east or uptown-downtown...)
