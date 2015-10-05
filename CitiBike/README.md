@@ -25,6 +25,9 @@ Error bar graphs indicated the difference in sample proportions would not be sig
 OUTLIERS:
 We see a lot of stations on Broadway that increases the likelihood that a trip will end there. 59th street also had a higher number of trips end at different stations along the street, but could be tourists starting on 59th, traveling through Central Park, and returning to another station on 59th...not necessarily communiting along the street.
 
+RESULTS:
+As can be seen by the figures, while the crosstown streets did have a higher ratio of trips that started and ended on the same street, it was not significant. The Null hypothesis was NOT REJECTED at a signficance level of 0.05.
+
 FURTHER RESEARCH:
 The scope of the analysis was limited by time. Further research might look into:
 - A more analytical way to decide what a "key" street is, perhaps based on other data sets like MTA or traffic.
