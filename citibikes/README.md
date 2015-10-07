@@ -51,3 +51,5 @@ For Homework 4 - Assignment 3: "Citibikes-goodness-of-fit"
 ****************************************************************
 
 ***IMPORTANT: Due to issues with multiple files, the Citibike data MUST be downloaded and unzipped into the local directory.
+
+The files needed are saves as zips in the Git repo.
