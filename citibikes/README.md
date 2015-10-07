@@ -37,7 +37,7 @@ The scope of the analysis was limited by time. Further research might look into:
 For Homework 4 - Assignment 1: "Citibikes-compare-distributions"
 ****************************************************************
 
-This notebook has been set up with a URL pull and unzip function, so no additional downloads or unzipping is needed, just run the code as is.
+This notebook has been set up with a URL pull and unzip function to extract CitiBike data, so no additional downloads or unzipping is needed, just run the code as is.
 
 OVERVIEW
 Narrative and descriptions of tests and results is documented in the notebook directly.
