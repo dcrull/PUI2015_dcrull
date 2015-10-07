@@ -44,3 +44,12 @@ Narrative and descriptions of tests and results is documented in the notebook di
 
 COLLABORATORS:
 I did this project assignment individually, but I'd like to thank Nate Webber, Michelle He, Maria Ortiz and the others at the MAGNATE "late night crew" table, as well as Graham for some help. I borrowed from previous assignments and Prof B's prompts.
+
+
+****************************************************************
+For Homework 4 - Assignment 3: "Citibikes-goodness-of-fit"
+****************************************************************
+
+***IMPORTANT: Due to issues with multiple files, the Citibike data MUST be downloaded and unzipped into the local directory.
+
+The files needed are saves as zips in the Git repo.
