@@ -1,4 +1,6 @@
+****************************************
 For Homework 3 - Assignment 3: Citibike
+****************************************
 
 ***IMPORTANT: Due to size restrictions, the data used in this file could not be uploaded to Git in raw form, but only as a zipped file. In order to run this program, the file must be unzipped in the local directory. Alternatively, you can go here:
 
@@ -36,3 +38,15 @@ The scope of the analysis was limited by time. Further research might look into:
 - A look into different subsets of the data: subscribers vs one-time users; weekday (specifically during rush hour) vs weekend
 - One could even measure the trip length compared to an estimate time for a path between two stations and eliminate trips that are significantly longer than expected (i.e. not commuters, but tourists "looping" around)
 - Look not only at start and end stations, but consider direction (east-to-west/west-to-east or uptown-downtown...)
+
+****************************************************************
+For Homework 4 - Assignment 1: "Citibikes-compare-distributions"
+****************************************************************
+
+This notebook has been set up with a URL pull and unzip function, so no additional downloads or unzipping is needed, just run the code as is.
+
+OVERVIEW
+Narrative and descriptions of tests and results is documented in the notebook directly.
+
+COLLABORATORS:
+I did this project assignment individually, but I'd like to thank Nate Webber, Michelle He, Maria Ortiz and the others at the MAGNATE "late night crew" table, as well as Graham for some help. I borrowed from previous assignments and Prof B's prompts.
