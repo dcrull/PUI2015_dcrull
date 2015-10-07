@@ -2,7 +2,7 @@
 For Homework 3 - Assignment 3: Citibike
 ****************************************
 
-***IMPORTANT: FOR THIS ASSIGNMENT ONLY: Due to size restrictions, the data used in this file could not be uploaded to Git in raw form, but only as a zipped file. In order to run this program, the file must be unzipped in the local directory. Alternatively, you can go here:
+***IMPORTANT: FOR THIS ASSIGNMENT ONLY (UNZIP FUNCTION WAS ADDED FOR HOMEWORK 4, SEE BELOW IN THIS README): Due to size restrictions, the data used in this file could not be uploaded to Git in raw form, but only as a zipped file. In order to run this program, the file must be unzipped in the local directory. Alternatively, you can go here:
 
 http://www.citibikenyc.com/system-data
 
