@@ -12,4 +12,4 @@ Assignment 2
 Unfortunately, as a part-time student, my time is severely limited (I have only evenings a few nights a week to work on homework). As such, I was unable to spend sufficient time on this assignment. Ive uploaded a notebook, but it is not complete.
 
 A note on homework:
-I'm generally comfortable with the workload, but for time-management purposes need closer to a full week for each assignment to properly get deep.
+I'm generally comfortable with the workload, but for time-management purposes need closer to a full week for each assignment to properly get deep. Especially until I get a better handle on the data-wrangling.
