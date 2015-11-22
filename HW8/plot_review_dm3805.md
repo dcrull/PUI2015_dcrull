@@ -4,7 +4,7 @@ PLOT REVIEW FOR dm3085
 
 ![plot](dm3085.png)
 
-CLARITY: It's easy to understand at a glance what is being plotted. Semantically, might suggest to use more distinctive adverbs in title to more explicitly call out the variables, such as: "Trip duration vs day of the week, by gender". 
+CLARITY: It's easy to understand at a glance what is being plotted. Semantically, perhaps use more distinctive adverbs in title to explicitly call out the variables, such as: "Trip duration vs day of the week, by gender". 
 
 AESTHETIC: Clear and clean. Not too complicated. Given the repetitive nature of the data across 7 days, the lines can be a bit fatiguing. Maybe use more sharply contrasted colors. X and Y labels could be a bigger font.
 
