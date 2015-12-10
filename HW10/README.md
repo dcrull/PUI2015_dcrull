@@ -8,7 +8,9 @@ All the required files are in this directory. The iPython notobook includes code
 ACKNOWLEDGEMENTS:
 I had some basic conceptual discussion with Dara Perl, Nate Webber, Maria Ortiz, and Michelle Ho, but the work here is all mine. Credit to them for telling me about the one-time homework extension policy...which I invoked.
 
+***************************
 TASK 6: RESULT COMPARISON
+***************************
 2 instances of a K-means algorithm were run: 3 and a 5-cluster initiation.
 2 instances of a hierarchical algorithm were also run (Ward linkage methodology): 3 and 5-cluster end-states.
 Note that a random seed was not set, so each K-means run would produce different initiation points.
@@ -21,10 +23,24 @@ As this is a timeseries, one technical aspect to consider is stationarity. This 
 One might guess, that because K-means chooses arbitrary and random starting points, whereas as Agg. Clustering is hierarchical and bottom-up, that the latter would be more likely to group lower and higher zip codes together initially and if since they have more "room" to trend statistically, its more likely to pick up trends at the extreme (low-to-high, or hi-to-low).
 
 Event detection:
-Both instances of both algorithms indicate events in 1999 and 2007, namely that they are years of far greater variance among zip codes within clusters. 1999 in particular is interesting as both alogrithms indicate divergence, with strong upticks for some clusters and strong downticks for others that year. Since it's bottom up, I'm not sure if Agg Clustering is more likely to capture spatial correlation, since surely there is some among zip codes. That may be one reason it seems to more clearly show this divergence in 1999, assuming a geographical relationship.
+Both instances of both algorithms indicate events in 1999 and 2007, namely that they are years of far greater variance among zip codes within clusters. 1999 in particular is interesting as both alogrithms indicate divergence, with strong upticks for some clusters and strong downticks for others that year. Since it's bottom up, I'm not sure if Agg Clustering is more likely to capture spatial correlation, since surely there is some among zip codes. That may be one reason it seems to more clearly show this divergence in 1999, assuming a geographical relationship. 
 
 Volatility:
 Agg Clustering, particularly the 5-cluster instance, seems to capture volatility quite a bit more, parciuarlly in the late 90s to early 2000s. Perhaps this is because it captures spatial autocorrelation (as noted above) better than K-means through it's bottom-up approach. This is a stretch...but perhaps bc Ward linkage seeks to minimize overall variance (not just within clusters), it over-weights year-to-year change (since its possible those economics affect ALL zip codes and minimizing variance means following this macro-economic change), whereas K-means will over-weight longitudinal similarities within clusters, even if those clusters vary a lot between them as a consequence of year-to-year changes.
 
+**********************************
 TASK 7: INTERPRETATION
+**********************************
+Overall, there are far too many variables not addressed to make these results too meaningful (factors of industry/business type and population density would be two simple ways to improve this analysis). This is only exploratory, and preliminary interpretation at that.
 
+Temporal interpretation:
+As referenced, 1999 and 2007 seem to have large divergence. That might make sense given history: 1999 was the tech buble and 2007 was the real estate market bubble burst and early stage of financial recession and depending on the type of business, this data might either capture the beginning of a downturn as well as the end of a bubble-expansion.
+
+There also seems to be some volatility in late 90s to early 2000s, which could be explained by the tech bubble and 9/11 and other major factors impacting NYC's economic stability in those years. As noted above, there may be a trend upward for a few zip codes as noted in a few clusters, but overall the data looks relatively stable. 
+
+All this is highly exploratory of course. Including type of business as a parameter may shed more insight.
+
+Geographical interpretation:
+Spatial auto-correlation was mentioned earlier and the maps show some clustering around known "hotspots" like downtown BK and lower Manhattan. Without at least at normalizing for population, it's really difficulat to draw any conslusions geographically.
+
+Further research might include not only more fine-grained data, normlized for population, but also weighted with a measure of spatial correlation (globally and locally) to do some validation of the suggestion earlier about whether Agg Clustering algorithm captures geo-spatial correlation any better than K-means.
