@@ -1,0 +1,59 @@
+great reviews, in depth and helpful 10/10
+NOTES ON YOUR PLOT
+===================
+
+tick labels too small
+
+title too small
+
+legend too small
+
+too much empty space (remember tufte's rules): the axis could be cut at the bottom and left
+
+nicely color-blind compliant and the colors nicely show some structure in the data
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+wh937
+=====
+
+the plot says color blind compliant, but really the color blind compliance is only important when multiple colors are present. 
+
+spaces are missing between words and parenthesis in both label and title
+
+the 3D is actually justified but the position of the points in the 3d space is hard to read. i think the transparency is attempting to make it more clear but it does not increase readability and the lack of legend makes it confusing to understand its meaning
+
+axis ticks are too small
+
+hbk254
+============
+
+the time series are of very different order of magnitude. thus all of them are invisible and cluster at the bottom . log y should be used.
+
+why is the plot resolution so low?
+
+there are too many time series on the plot. even with log space the result would likely be confusing. 
+
+for the y ticks a compressed notation for the large numbers should be chosen to enhance readability
+
+good legend and good size for the labels.
+
+consider steps instead of lines joining points for time series
+
+
+
+dm3805
+============
+
+small tick labels
+
+small axis label (not terribly small but a bit)
+
+the faint colors may not render well in a page with other stuff in it. 
+
+assigning shades of red and blue to females and males does enhance clarity through intuition but it charges the plot with gender issues: more neutral colors are advisable. 
+
+the distribution of the data would probably be suitable to a log scale on the y axis. this would separate the bottom of the range, which now appears to be the same by eye for all categories.
